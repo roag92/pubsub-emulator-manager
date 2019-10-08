@@ -1,0 +1,19 @@
+{
+  "name": "local-subscriptions",
+  "version": "1.0.0",
+  "description": "Local Pub/Sub settings",
+  "main": "script.js",
+  "scripts": {
+    "create": "node script.js --mode=create",
+    "remove": "node script.js --mode=remove",
+    "publish": "node script.js --mode=publish"
+  },
+  "author": "Ricardo Roman",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^1.1.0",
+    "colors": "^1.4.0",
+    "dotenv": "^8.1.0",
+    "yargs": "^14.0.0"
+  }
+}
