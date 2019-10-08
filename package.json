@@ -1,7 +1,7 @@
 {
   "name": "pubsub-emulator-manager",
   "version": "1.0.0",
-  "description": "Local Pub/Sub settings",
+  "description": "A nodejs cli to manage the Pub/Sub Emulator",
   "main": "script.js",
   "scripts": {
     "create": "node script.js --mode=create",
