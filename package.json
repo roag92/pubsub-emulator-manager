@@ -1,5 +1,5 @@
 {
-  "name": "local-subscriptions",
+  "name": "pubsub-emulator-manager",
   "version": "1.0.0",
   "description": "Local Pub/Sub settings",
   "main": "script.js",
@@ -9,7 +9,7 @@
     "publish": "node script.js --mode=publish"
   },
   "author": "Ricardo Roman",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@google-cloud/pubsub": "^1.1.0",
     "colors": "^1.4.0",

@@ -1,4 +1,4 @@
-Local Managment for the Pubsub-Emulator
+Pubsub-Emulator Manager
 ==========
 
 This tool is able to create and remove topic and subscriptions, and publish messages to the PubSub-Emulator.
@@ -8,13 +8,15 @@ This tool is able to create and remove topic and subscriptions, and publish mess
  - [pubsub-emulator](https://cloud.google.com/pubsub/docs/emulator)
  - [nodejs](https://nodejs.org/en/download/)
 
+----
+
 ## Installation
 
 ```bash
  yarn isntall
 ```
 
-## Config
+#### Config
 
 Set as you want to configure your `.env` from `.env.dist`
 
@@ -33,7 +35,9 @@ GPC_PUBSUB_SSL_CREDS=null
 
 > Note: For `SUBSCRIPTION_TYPE` could be `PUSH` or `PULL`. Just keep in mind, if the value is `PUSH` you should declare your `PUSH_ENDPOINT` server.
 
-#### Usage
+----
+
+## Usage
 
 Before to start you should start the emulator using the same `PROJECT_ID` which is declare in your `.env` file.
 
